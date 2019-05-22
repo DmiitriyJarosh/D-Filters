@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <ImageView fx:id="imageView" fitHeight="400" fitWidth="400" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1" />
+   <ProgressBar fx:id="progressBar" prefWidth="600.0" progress="0.0" GridPane.rowIndex="4" />
+   <ButtonBar prefHeight="40.0" prefWidth="600.0" GridPane.rowIndex="2">
+     <buttons>
+         <Button fx:id="buttonStart" disable="true" onAction="#pressStart"> Start! </Button>
+         <Button fx:id="buttonBreak" disable="true" onAction="#pressBreak"> Break </Button>
+         <ComboBox fx:id="comboBoxFilter" onAction="#choice" prefWidth="150.0" />
+         <Button fx:id="buttonExit" maxWidth="60" onAction="#pressExit"> Exit </Button>
+     </buttons>
+   </ButtonBar>
+   <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.rowIndex="3">
+     <buttons>
+         <Button fx:id="buttonLoad" onAction="#pressLoad" prefHeight="34.0" prefWidth="147.0"> Load image </Button>
+     </buttons>
+   </ButtonBar>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

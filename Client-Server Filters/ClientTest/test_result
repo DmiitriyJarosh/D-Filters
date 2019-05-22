@@ -1,0 +1,14 @@
+1)	average time of task with different usage of server: (filter: monochrome; image: JPG 460x307)
+		only you: 615ms; median time 539ms
+		nearly 10-15 clients in parallel with you: 6619ms; median time	6367ms
+		nearly 60-70 clients in parallel with you: 8319ms; median time 8535ms
+2)	average time of task with different usage of server: (filter: monochrome; image: JPG 500x603)
+		only you: 1513ms; median time 1487ms
+		nearly 10-15 clients in parallel with you: 26919ms; median time	26971ms
+		nearly 60-70 clients in parallel with you: 73259ms; median time 72483ms
+3)	average time of task with different usage of server: (filter: monochrome; image: JPG 1600x900)
+		only you: 8928ms; median time 8890ms
+		nearly 10-15 clients in parallel with you: 170128ms; median time 170832ms
+		nearly 60-70 clients in parallel with you: my computer is too slow for it
+
+Can't continue when it was nearly 60 clients at one second with picture 1600x900 (my opinion is that reason is old computer and combining of server and too much clients on one machine!!)
